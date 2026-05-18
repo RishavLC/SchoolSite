@@ -1,0 +1,40 @@
+body{
+margin:0px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F55A5A;
+}
+header > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius:25px ;
+}
+header > p {
+font-size: 18px;
+font-style: italic;
+color: aliceblue;
+}
+.container{
+    margin: 20px;
+    display: flex;
+}
+section > img {
+    margin: 10px;
+    border-radius: 20px;
+    height: 300px;
+    width: 250px;
+}
+.location{
+    margin-top: 30px;
+    height: 25px;
+    width: 30px;
+}
+.map{
+    text-decoration: none;
+    color: rgb(166, 172, 170);
+    margin-left: 5px;
+}
