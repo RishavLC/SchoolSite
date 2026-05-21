@@ -1,10 +1,20 @@
 import Header from '../components/Travel/Header';
 import Entry from '../components/Travel/Entry';
-export default function TravelJournal(){
+import data from '../data'
+
+export default function TravelJournal() {
+    const entries = data.map((item) => {
+        return (
+            <Entry
+                key={item.id}
+                {...item}
+            />
+        )
+    })
     return(
         <>
             <Header />
-            <Entry />
+            {entries}
         </>
     );
 }
